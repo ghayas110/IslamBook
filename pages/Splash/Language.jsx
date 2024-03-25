@@ -3,13 +3,18 @@ import React from 'react'
 import SegmentSelect from '../../components/SegmentSelect'
 import { SegmentedButtons } from 'react-native-paper'
 import { useNavigation } from '@react-navigation/native'
-const Language = () => {
+import AsyncStorage from '@react-native-async-storage/async-storage'
+const Language = ({onLogin}) => {
     const [value, setValue] = React.useState('');
     const navigation =useNavigation()
-   const handleChange=(value)=>{
-    console.log(value)
-setValue(value)
-navigation.navigate('Home')
+   const handleChange=async(value)=>{
+    try {
+      await    AsyncStorage.setItem('data', value);
+      onLogin()
+    } catch (e) {
+      // saving error
+      console.log(e)
+    }
    }
  
   return (
@@ -23,14 +28,14 @@ navigation.navigate('Home')
         onValueChange={(value)=> handleChange(value)}
         buttons={[
           {
-            value: 'Urdu',
+            value: 'hi',
             label: 'Urdu',
           },
           {
-            value: 'English',
+            value: 'en',
             label: 'English',
           },
-          { value: 'Arabic', label: 'Arabic' },
+          { value: 'fr', label: 'Arabic' },
         ]}
       />
  </SafeAreaView>
