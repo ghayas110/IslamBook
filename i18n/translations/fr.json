@@ -1,16 +1,8 @@
-
 {
-  "hello": "مرحبا",
-  "outcome": "نتيجة",
-  "tax": "ضريبة",
-  "clothing": "ملابس",
-  "electronic": "إلكترونيات",
-  "transport": "نقل",
-  "shoes": "أحذية",
-  "summeryText": "هنا، يمكنك رؤية ملخص كامل لنفقاتك السابقة.",
-  "changeLanguage": "تغيير اللغة",
-  "english": "الإنجليزية",
-  "hindi": "الهندية",
-  "french": "الفرنسية",
-  "Mandarin": "الماندرين"
-  }
+  "Noha": "نوحہ",
+  "hello": "ہیلو",
+  "Manqabat": "منقبت",
+  "Soz": "سوز",
+  "Dasta Imamia": "دستہ امامیہ",
+  "Assalamualaikum": "السلام علیکم"
+}

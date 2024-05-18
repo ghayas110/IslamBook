@@ -11,9 +11,8 @@ const SplashScreen = () => {
   
     return (
       <View style={styles.container}>
-        <Image style={styles.logo}
-        source={require('../../images/logo.png')}
-      />
+   <Image source={require('../../images/logo.png')} style={{width:200,height:220,resizeMode:'contain'}}/>
+   
     </View>
   );
 };
@@ -25,6 +24,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor:'orange'
+     
       },
 })

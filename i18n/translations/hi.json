@@ -1,16 +1,9 @@
-
 {
+  "Noha": "نوحہ",
   "hello": "ہیلو",
-  "outcome": "نتیجہ",
-  "tax": "ٹیکس",
-  "clothing": "کپڑے",
-  "electronic": "الیکٹرانک",
-  "transport": "نقل و حمل",
-  "shoes": "جوتے",
-  "summeryText": "یہاں، آپ اپنی گزشتہ اخراجات کا مکمل خلاصہ دیکھ سکتے ہیں۔",
-  "changeLanguage": "زبان بدلیں",
-  "english": "انگریزی",
-  "hindi": "ہندی",
-  "french": "فرانسیسی",
-  "Mandarin": "مینڈرین"
-  }
+  "Manqabat": "منقبت",
+  "Soz": "سوز",
+  "Dasta Imamia": "دستہ امامیہ",
+  "Assalamualaikum": "السلام علیکم",
+  "Top Tracks":"گوہر نایاب"
+}
